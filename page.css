@@ -1,0 +1,116 @@
+*{
+   margin: 0px; 
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: Arial, sans-serif;
+}
+header {
+  background-color:blueviolet;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.header{
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.38),rgba(0,0,0,0.38)),url("office.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.navBar{
+ width: 100%;
+ color: #fff;
+ display: flex;
+ justify-content: space-between;
+ text-align: center;
+ padding: 10px 60px;
+}
+.navBar .logo{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.nav-menu ul {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.nav-menu ul li{
+  list-style: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.nav-menu ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+.nav-menu ul li:hover{
+  background-color: rgb(95, 29, 157);
+  transition: 0.8s ease;
+}
+.toggle-btn{
+  position: absolute;
+  top:28px;
+  right:60px;
+  display: none;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 22px ;
+  width: 32px ;
+}
+.toggle-btn .bar{
+  height: 4px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px ;
+}
+.content-section{
+  width: 100%;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  padding: 0px 6opx;
+}
+.content-section h1{
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.content-section p{
+  color:#c2a1a1;
+  font-size: 19px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+.content-section .button{
+  margin-top:25px;
+}
+.content-section .button a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  display: inline-block;
+  background-color:blueviolet;
+  border-radius: 5px;
+  padding: 14px 5px;
+  letter-spacing: 1.5px;
+}
+.content-section .button a:hover{
+  background-color: #7908f3;
+  transition: 0.5s ease;
+}
+
+footer {
+  background-color: #880ff3;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
